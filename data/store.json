@@ -1,0 +1,81 @@
+{
+  "customers": {
+    "C001": {"name": "Maria Lopez", "email": "maria@example.com"},
+    "C002": {"name": "James Chen", "email": "james@example.com"},
+    "C003": {"name": "Aisha Khan", "email": "aisha@example.com"}
+  },
+  "orders": {
+    "A1001": {
+      "customer_id": "C001",
+      "item": "Wireless earbuds",
+      "total": 79.99,
+      "status": "delivered",
+      "delivered_on": "2026-10-28",
+      "tracking": "1Z999AA10000000001"
+    },
+    "A1002": {
+      "customer_id": "C001",
+      "item": "Smartwatch",
+      "total": 249.00,
+      "status": "shipped",
+      "estimated_delivery": "2026-11-14",
+      "tracking": "1Z999AA10000000002"
+    },
+    "A1003": {
+      "customer_id": "C002",
+      "item": "Laptop stand",
+      "total": 45.00,
+      "status": "delivered",
+      "delivered_on": "2026-09-20",
+      "tracking": "1Z999AA10000000003"
+    },
+    "A1004": {
+      "customer_id": "C003",
+      "item": "27-inch 4K monitor",
+      "total": 899.00,
+      "status": "delivered",
+      "delivered_on": "2026-11-05",
+      "tracking": "1Z999AA10000000004"
+    },
+    "A1005": {
+      "customer_id": "C002",
+      "item": "Mechanical keyboard",
+      "total": 129.00,
+      "status": "refunded",
+      "delivered_on": "2026-10-15",
+      "tracking": "1Z999AA10000000005"
+    }
+  },
+  "faq": [
+    {
+      "topic": "shipping",
+      "question": "How long does shipping take?",
+      "answer": "Standard shipping takes 3 to 5 business days. Express shipping takes 1 to 2 business days."
+    },
+    {
+      "topic": "refunds",
+      "question": "What is the refund policy?",
+      "answer": "You can request a refund within 30 days of delivery. The order must have status 'delivered'. Refunds go back to the original payment method within 5 to 7 business days."
+    },
+    {
+      "topic": "refunds",
+      "question": "Can I get a refund on a large order?",
+      "answer": "Refunds over $500 need approval from a human support agent. We will open a ticket and reply within 24 hours."
+    },
+    {
+      "topic": "returns",
+      "question": "Do I need to send the item back?",
+      "answer": "Yes. After a refund is approved we email a prepaid return label. Ship the item back within 14 days."
+    },
+    {
+      "topic": "warranty",
+      "question": "Do products have a warranty?",
+      "answer": "All products have a 1-year manufacturer warranty that covers defects, not accidental damage."
+    },
+    {
+      "topic": "contact",
+      "question": "How do I talk to a person?",
+      "answer": "Ask the assistant to escalate. A human agent replies within 24 hours, Monday to Friday."
+    }
+  ]
+}
